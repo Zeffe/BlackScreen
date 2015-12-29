@@ -46,13 +46,19 @@ namespace BlackScreen
 
         void normal()
         {
+            black = false;
             this.Hide();
+            this.TopMost = false;
+            this.WindowState = FormWindowState.Normal;
             blackOutToolStripMenuItem.Visible = true;
             showToolStripMenuItem.Visible = false;
         }
 
+        bool black = false;
+
         void blackout()
         {
+            black = true;
             this.Show();
             this.TopMost = true;
             this.FormBorderStyle = FormBorderStyle.None;
@@ -66,12 +72,16 @@ namespace BlackScreen
             blackout();
         }
 
+        Dictionary<string, Point> dictionary = new Dictionary<string, Point>();
+
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            int i = 0;
             foreach (Screen screen in Screen.AllScreens)
             {
-                changeScreensToolStripMenuItem.DropDownItems.Add(screen.DeviceName, null, onClick);
+                dictionary.Add(screen.DeviceName, screen.WorkingArea.Location);
+                changeScreensToolStripMenuItem.DropDownItems.Add(screen.DeviceName, null, onClick);                
             }
         }
 
@@ -121,15 +131,19 @@ namespace BlackScreen
             normal();
         }
 
+
         private void onClick(object sender, EventArgs e)
         {
-            foreach(Screen screen in Screen.AllScreens)
+            int k = 0;
+            foreach (Screen screen in Screen.AllScreens)
             {
                 if (screen.DeviceName == sender.ToString())
                 {
-                    normal();
-                    this.Location = screen.WorkingArea.Location;
-                    blackout();
+                    switch (black)
+                    {
+                        case true: normal(); this.Location = dictionary[screen.DeviceName]; blackout(); break;
+                        case false: this.Location = dictionary[screen.DeviceName]; break;
+                    }
                 }
             }
         }

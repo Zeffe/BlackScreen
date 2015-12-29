@@ -16,3 +16,12 @@ C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csprojResolv
 C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.Form1.resources
 C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.Properties.Resources.resources
 C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csproj.GenerateResource.Cache
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\bin\Debug\BlackScreen.exe.config
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.exe
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.pdb
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\bin\Debug\BlackScreen.exe
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\bin\Debug\BlackScreen.pdb
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csprojResolveAssemblyReference.cache
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.Form1.resources
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.Properties.Resources.resources
+C:\Users\Seth\Desktop\C# Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csproj.GenerateResource.Cache

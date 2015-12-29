@@ -69,6 +69,10 @@ namespace BlackScreen
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            foreach (Screen screen in Screen.AllScreens)
+            {
+                changeScreensToolStripMenuItem.DropDownItems.Add(screen.DeviceName, null, onClick);
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -115,6 +119,19 @@ namespace BlackScreen
         private void showToolStripMenuItem_Click(object sender, EventArgs e)
         {
             normal();
+        }
+
+        private void onClick(object sender, EventArgs e)
+        {
+            foreach(Screen screen in Screen.AllScreens)
+            {
+                if (screen.DeviceName == sender.ToString())
+                {
+                    normal();
+                    this.Location = screen.WorkingArea.Location;
+                    blackout();
+                }
+            }
         }
     }
 }

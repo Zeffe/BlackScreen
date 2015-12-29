@@ -16,7 +16,7 @@ namespace BlackScreen
         {
             InitializeComponent();
             int id = 0;
-            RegisterHotKey(this.Handle, id, (int)KeyModifier.Shift, Keys.A.GetHashCode()); 
+            RegisterHotKey(this.Handle, id, (int)KeyModifier.Alt, Keys.A.GetHashCode()); 
         }
 
         [System.Runtime.InteropServices.DllImport("user32.dll")]

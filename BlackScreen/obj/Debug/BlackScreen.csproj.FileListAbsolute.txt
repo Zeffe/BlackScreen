@@ -7,3 +7,12 @@ c:\users\seth\documents\visual studio 2015\Projects\BlackScreen\BlackScreen\obj\
 c:\users\seth\documents\visual studio 2015\Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csproj.GenerateResource.Cache
 c:\users\seth\documents\visual studio 2015\Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.exe
 c:\users\seth\documents\visual studio 2015\Projects\BlackScreen\BlackScreen\obj\Debug\BlackScreen.pdb
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\bin\Debug\BlackScreen.exe.config
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.exe
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.pdb
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\bin\Debug\BlackScreen.exe
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\bin\Debug\BlackScreen.pdb
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csprojResolveAssemblyReference.cache
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.Form1.resources
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.Properties.Resources.resources
+C:\Users\Seth\Desktop\BlackScreen\BlackScreen\obj\Debug\BlackScreen.csproj.GenerateResource.Cache

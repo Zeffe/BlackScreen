@@ -65,6 +65,7 @@ namespace BlackScreen
             this.WindowState = FormWindowState.Maximized;
             blackOutToolStripMenuItem.Visible = false;
             showToolStripMenuItem.Visible = true;
+            this.BringToFront();
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
